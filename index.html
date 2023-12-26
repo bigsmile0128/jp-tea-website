@@ -1,6 +1,8 @@
 <html>
       <head>
             <title>日本茶のWebサイト</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width initial-scale=1, minimum-scale=1, maximum-scale=1" />
             <link rel="stylesheet" href="assets/css/custom.css" />
       </head>
       <body>
@@ -16,7 +18,13 @@
                         <li style="width: 13%;"><a href="#news8">言語</a></li>
                   </ul>
                   <div class="x-content">
-                        <h1 class="x-content-title">marucha</h1>
+                        
+                        <swiper-container class="mySwiper" pagination="true" pagination-clickable="false" navigation="false" 
+                        centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                              <swiper-slide><div class="x-content-slide-1"><h1 class="x-content-title">marucha</h1></div></swiper-slide>
+                              <swiper-slide><div class="x-content-slide-2"><h1 class="x-content-title">marucha</h1></div></swiper-slide>
+                              <swiper-slide><div class="x-content-slide-3"><h1 class="x-content-title">marucha</h1></div></swiper-slide>
+                        </swiper-container>
                   </div>
                   <ul class="x-header">
                         <li style="width: 12.5%;"><a>ティーバッグ</a></li>
@@ -29,5 +37,9 @@
                         <li style="width: 12.5%;"><a>静岡茶</a></li>
                   </ul>
             </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+            <script>
+                  var swiper = new Swiper(".mySwiper", {});
+            </script>
       </body>
 </html>

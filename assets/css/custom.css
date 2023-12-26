@@ -40,6 +40,16 @@ li a:hover {
 .x-content {
       width: 100%;
       height: calc(100vh - 106px);
+}
+
+.x-content-title {
+      color: white;
+      font-size: 80px;
+      margin-bottom: 100px;
+}
+
+.x-content-slide-1 {
+      height: calc(100vh - 106px);
       background-image: url('../image/tea_source.png');
       background-repeat: no-repeat;
       background-position: center center;
@@ -49,8 +59,29 @@ li a:hover {
       align-items: center;
 }
 
-.x-content-title {
-      color: white;
-      font-size: 80px;
-      margin-bottom: 100px;
+.x-content-slide-2 {
+      height: calc(100vh - 106px);
+      background-image: url('../image/tea_leaf.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100% 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.x-content-slide-3 {
+      height: calc(100vh - 106px);
+      background-image: url('../image/tea-cup.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100% 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+swiper-container {
+      width: 100%;
+      height: 100%;
 }
